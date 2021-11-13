@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Reckon",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
