@@ -1,0 +1,63 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>add statement</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content> -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add Statement</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- <ion-content>
+  <div>
+  <ion-input type="text">Amount</ion-input>
+  <ion-input  type="text">Note</ion-input>
+   <ion-item>
+  <ion-label id="profile_image" color="primary" stacked>Profilbild wählen</ion-label>
+  <ion-input type="file" accept="image/*" id="upload" [(ngModel)]="imageFilePath" (ionChange)="imageFilePath_change($event)"></ion-input>
+</ion-item> 
+<ion-input type  ="file">File</ion-input>
+<ion-input type="button">Add</ion-input>
+</div>
+</ion-content>  -->
+<!-- 
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding>
+  <div id="container">
+    <ion-list>
+
+      <ion-item id="rounded">
+        <ion-label fixed>Amount</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+
+      <ion-item id="rounded">
+        <ion-label fixed>Note</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>  
+      <ion-item id="rounded">   
+      <ion-input type  ="file">File</ion-input>
+      </ion-item>
+      <ion-item>
+      
+        <ion-item>
+          <ion-label>Date</ion-label>
+          <ion-datetime displayFormat="MM DD YY" placeholder="Select Date"></ion-datetime>
+        </ion-item>
+</ion-item> 
+<ion-button expand="smal" shape="round"[routerLink]="['/individual']">Add</ion-button> 
+    </ion-list>
+  </div>
+</ion-content>
