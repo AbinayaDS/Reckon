@@ -8,7 +8,7 @@ const routes: Routes = [
   // },
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'splash',
     pathMatch: 'full'
   },
   {
@@ -46,6 +46,10 @@ const routes: Routes = [
   {
     path: 'add-statement',
     loadChildren: () => import('./add-statement/add-statement.module').then( m => m.AddStatementPageModule)
+  },
+  {
+    path: 'splash',
+    loadChildren: () => import('./splash/splash.module').then( m => m.SplashPageModule)
   },
 ];
 

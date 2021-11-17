@@ -1,0 +1,17 @@
+ion-content{
+    --background:rgb(9, 9, 10);
+ }
+ .container{
+    -webkit-animation: scale-in-center 10s both;
+    animation: scale-in-center 10s both;
+    img {
+      height: 200px;
+      width: 200px;
+      margin-top: 60%;
+    }
+  }
+ 
+ 
+ h3{
+    color:blue;
+ }
