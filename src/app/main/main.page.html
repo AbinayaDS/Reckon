@@ -1,21 +1,34 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>main</ion-title>
-  </ion-toolbar>
-</ion-header>
+ <!-- <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button [text]="buttonText" [icon]="buttonIcon">
+        </ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header> -->
 
-<ion-content>
-
-</ion-content>  -->
 <ion-tabs>
   <ion-tab-bar slot="top">
-    <ion-tab-button [routerLink]="['/individual']">Individual</ion-tab-button>
-    <ion-tab-button [routerLink]="['/group']">Group</ion-tab-button>
+    <ion-tab-button [routerLink]="['/individual']" >Individual</ion-tab-button>  
+     <ion-tab-button [routerLink]="['/group']">Group</ion-tab-button>
     <ion-toolbar>
-      <ion-buttons slot="end">
+    <ion-buttons slot="end">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
     </ion-toolbar>
   </ion-tab-bar>
 </ion-tabs>
 
+<!-- <ion-tabs>
+  <ion-tab-bar slot="top">
+    <ion-tab-button tab="individual">
+      <ion-icon name="flash"></ion-icon>
+      <ion-label>Individual</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button page="group">
+      <ion-icon name="apps"></ion-icon>
+      <ion-label>Group</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs> -->
